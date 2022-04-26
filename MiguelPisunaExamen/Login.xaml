@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MiguelPisunaExamen.Login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="UNIVERSIDAD TECNOLOGICA ISRAEL"/>
+            <Image Source="https://sbsconsulting.com.ec/wp-content/uploads/2018/01/LOGO-UISRAEL-768x209.png " 
+               HeightRequest="300" />
+            <Entry x:Name="txtuser" Placeholder="Usuario"></Entry>
+            <Entry x:Name="txtPass" Placeholder="Password" IsPassword="True"></Entry>
+
+            <Button x:Name="btnIngresar" Text="Ingresar" Clicked="btnAbrir_Clicked"></Button>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
